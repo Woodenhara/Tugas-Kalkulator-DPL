@@ -16,3 +16,19 @@ console.log("╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚
     console.log("         4.  Pembagian            ")
     console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 input.requestionlnt("pilih metode yang kamu inginkan : ")
+
+if (metode == 1) {
+    console.log("Hasilnya adalah" , no1 + no2);
+    }
+else if (metode == 2) {
+    console.log("Hasilnya adalah" , no1 - no2);
+    }
+else if (metode == 3) {
+    console.log("Hasilnya adalah" , no1 * no2);
+    }
+else if (metode == 4) {
+    console.log("Hasilnya adalah" , no1 / no2);
+    }
+else if (metode >= 5) {
+    console.log("Tolong input angka diantara 1-4!")
+}
